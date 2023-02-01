@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="274.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Task4Controller">
+   <children>
+      <RadioButton fx:id="rdb1" layoutX="75.0" layoutY="77.0" mnemonicParsing="false" selected="true" text="Так">
+         <toggleGroup>
+            <ToggleGroup fx:id="a" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rdb2" layoutX="75.0" layoutY="103.0" mnemonicParsing="false" text="Не дуже" toggleGroup="$a" />
+      <RadioButton fx:id="rdb3" layoutX="75.0" layoutY="128.0" mnemonicParsing="false" text="Ні" toggleGroup="$a" />
+      <Label layoutX="42.0" layoutY="33.0" text="Чи задоволені ви анектою?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="260.0" layoutY="187.0" mnemonicParsing="false" onAction="#SwitchToResults" text="Результат">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="56.0" layoutY="185.0" onMouseClicked="#SwitchToTask2" text="&lt;&lt;">
+         <font>
+            <Font name="Fira Code Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

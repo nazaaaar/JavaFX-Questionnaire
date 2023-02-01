@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="resultWindow" prefHeight="400.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ResultController">
+   <children>
+      <Label layoutX="71.0" layoutY="70.0" text="Улюблений сингл:"><font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+      <Label fx:id="ans1" layoutX="71.0" layoutY="94.0" text="Label" />
+      <Label layoutX="71.0" layoutY="119.0" text="Альбоми до вподоби:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="ans2" layoutX="70.0" layoutY="137.0" prefHeight="98.0" prefWidth="250.0" text="Label" />
+      <Label layoutX="70.0" layoutY="235.0" text="Чи задоволені тестом:"><font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+      <Label fx:id="ans3" layoutX="71.0" layoutY="260.0" text="Label" />
+      <Label layoutX="31.0" layoutY="26.0" text="Your answer:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Button layoutX="283.0" layoutY="352.0" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+      <Button layoutX="216.0" layoutY="352.0" mnemonicParsing="false" onAction="#About" text="About" />
+      <Button layoutX="31.0" layoutY="352.0" mnemonicParsing="false" onAction="#PersonalCabinet" prefHeight="26.0" prefWidth="109.0" text="PersonalCabinet" />
+   </children>
+</AnchorPane>

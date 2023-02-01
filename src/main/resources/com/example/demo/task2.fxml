@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="164.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Task2Controller">
+   <children>
+      <Label layoutX="28.0" layoutY="18.0" prefHeight="59.0" prefWidth="154.0" text="Оберіть улюблений сингл The Beatles" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="splitMenuButton" layoutX="226.0" layoutY="32.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="183.0" text="(вибір)">
+        <items>
+          <MenuItem fx:id="m1" mnemonicParsing="false" text="Ticket to Ride" />
+          <MenuItem fx:id="m2" mnemonicParsing="false" text="Help!" />
+            <MenuItem fx:id="m3" mnemonicParsing="false" text="Yesterday" />
+            <MenuItem fx:id="m4" mnemonicParsing="false" text="Yellow Submarine" />
+            <MenuItem fx:id="m5" mnemonicParsing="false" text="Penny Lane" />
+            <MenuItem fx:id="m6" mnemonicParsing="false" text="All You Need Is Love" />
+            <MenuItem fx:id="m7" mnemonicParsing="false" text="Hey Jude" />
+            <MenuItem fx:id="m8" mnemonicParsing="false" text="While My Guitar Gently Weeps" />
+            <MenuItem fx:id="m9" mnemonicParsing="false" text="Get Back" />
+            <MenuItem fx:id="m10" mnemonicParsing="false" text="Come Together" />
+            <MenuItem fx:id="m11" mnemonicParsing="false" text="Let It Be" />
+        </items>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </SplitMenuButton>
+      <Label layoutX="330.0" layoutY="98.0" onMouseClicked="#SwitchToTask3" text="&gt;&gt;">
+         <font>
+            <Font name="Fira Code Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="317.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AboutController">
+   <children>
+      <Label layoutX="42.0" layoutY="33.0" text="ПІБ: Курей Назарій Сергійович">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="119.0" text="Дата та час здачі роботи:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="79.0" layoutY="155.0" text="00.00.2004 18:56">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="265.0" fitWidth="219.0" layoutX="334.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image_2022-11-17_18-53-44.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="42.0" layoutY="204.0" text="Оцінка">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Spinner editable="true" initialValue="5f" layoutX="138.0" layoutY="205.0" max="5f" min="0f" />
+      <Button layoutX="199.0" layoutY="247.0" mnemonicParsing="false" onAction="#Close" text="Close">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <SplitMenuButton fx:id="splitMenuButton" layoutX="46.0" layoutY="69.0" mnemonicParsing="false" text="Група">
+        <items>
+          <MenuItem fx:id="m1" mnemonicParsing="false" text="КН-12" />
+          <MenuItem fx:id="m2" mnemonicParsing="false" text="КН-22" />
+        </items>
+         <font>
+            <Font size="16.0" />
+         </font>
+      </SplitMenuButton>
+   </children>
+</AnchorPane>

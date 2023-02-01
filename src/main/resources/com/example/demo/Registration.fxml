@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.RegistrationController">
+   <children>
+      <Label layoutX="61.0" layoutY="39.0" text="Username: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="178.0" layoutY="42.0" onKeyPressed="#CheckUsername" onKeyReleased="#CheckUsername" onMouseClicked="#CheckUsername" onMouseEntered="#CheckUsername" onMouseExited="#CheckUsername" prefHeight="24.0" prefWidth="189.0" promptText="Введіть ваше ім'я">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button layoutX="315.0" layoutY="288.0" mnemonicParsing="false" onAction="#Register" onMousePressed="#CheckUsername" text="Register">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="61.0" layoutY="92.0" text="Password:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="46.0" layoutY="288.0" mnemonicParsing="false" onAction="#Back" prefHeight="37.0" prefWidth="76.0" text="Back">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="info" layoutX="61.0" layoutY="136.0" prefHeight="142.0" prefWidth="318.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameCheck" layoutX="177.0" layoutY="14.0" prefHeight="24.0" prefWidth="138.0" textAlignment="CENTER" wrapText="true" />
+      <PasswordField fx:id="password" layoutX="178.0" layoutY="94.0" prefHeight="26.0" prefWidth="190.0" />
+
+   </children>
+</AnchorPane>

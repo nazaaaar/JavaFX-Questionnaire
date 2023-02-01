@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="293.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PersonalCabinetController">
+   <children>
+      <Button layoutX="76.0" layoutY="46.0" mnemonicParsing="false" onAction="#Start" prefHeight="26.0" prefWidth="195.0" text="Start questionnaire" />
+      <Button layoutX="70.0" layoutY="99.0" mnemonicParsing="false" onAction="#MyAnswers" prefHeight="26.0" prefWidth="195.0" text="My answers" />
+      <Button layoutX="70.0" layoutY="147.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="26.0" prefWidth="195.0" text="Log out" />
+      <Button layoutX="70.0" layoutY="200.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="195.0" text="Exit" />
+   </children>
+</AnchorPane>

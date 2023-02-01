@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="274.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Task3Controller">
+   <children>
+      <Label layoutX="62.0" layoutY="28.0" text="Оберіть альбоми, що вам до вподоби">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="ch1" layoutX="42.0" layoutY="64.0" mnemonicParsing="false" text="Panic! At The Disco - Death of a Bechelor" />
+      <CheckBox fx:id="ch2" layoutX="42.0" layoutY="90.0" mnemonicParsing="false" text="Dio - Holy Diver" />
+      <CheckBox fx:id="ch3" layoutX="42.0" layoutY="118.0" mnemonicParsing="false" text="Guns N' Roses - Use Your Illusion" />
+      <CheckBox fx:id="ch4" layoutX="42.0" layoutY="144.0" mnemonicParsing="false" text="Скрябін - Озимі люди" />
+      <CheckBox fx:id="ch5" layoutX="42.0" layoutY="172.0" mnemonicParsing="false" text="Свій варіант: " />
+      <TextField fx:id="sviyVar" layoutX="149.0" layoutY="168.0" promptText="Введіть текст" />
+      <Label layoutX="299.0" layoutY="207.0" onMouseClicked="#SwitchToTask3" text="&gt;&gt;">
+         <font>
+            <Font name="Fira Code Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="207.0" onMouseClicked="#SwitchToTask1" text="&lt;&lt;">
+         <font>
+            <Font name="Fira Code Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

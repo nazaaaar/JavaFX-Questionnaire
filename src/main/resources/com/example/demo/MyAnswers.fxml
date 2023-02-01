@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="390.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MyAnswersController">
+   <children>
+      <Label layoutX="113.0" layoutY="44.0" text="Answer 1" />
+      <Label layoutX="262.0" layoutY="44.0" text="Answer 2" />
+      <Label layoutX="409.0" layoutY="44.0" text="Answer 3" />
+      <Label layoutX="34.0" layoutY="44.0" text="ID" />
+      <Label fx:id="id1" alignment="CENTER" layoutX="26.0" layoutY="122.0" prefHeight="18.0" prefWidth="31.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans1_1" alignment="CENTER" layoutX="80.0" layoutY="73.0" prefHeight="116.0" prefWidth="115.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans2_1" alignment="CENTER" layoutX="207.0" layoutY="73.0" prefHeight="116.0" prefWidth="190.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans3_1" alignment="CENTER" layoutX="409.0" layoutY="73.0" prefHeight="116.0" prefWidth="67.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans1_2" alignment="CENTER" layoutX="80.0" layoutY="203.0" prefHeight="116.0" prefWidth="115.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="id2" alignment="CENTER" layoutX="26.0" layoutY="252.0" prefHeight="18.0" prefWidth="31.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans2_2" alignment="CENTER" layoutX="207.0" layoutY="203.0" prefHeight="116.0" prefWidth="190.0" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="ans3_2" alignment="CENTER" layoutX="409.0" layoutY="203.0" prefHeight="116.0" prefWidth="67.0" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="34.0" layoutY="332.0" mnemonicParsing="false" onAction="#Result" prefHeight="26.0" prefWidth="82.0" text="Back" />
+      <Button fx:id="PrevButton" disable="true" layoutX="262.0" layoutY="332.0" mnemonicParsing="false" onAction="#PrevPage" text="&lt;&lt; previous" />
+      <Button fx:id="NextButton" layoutX="368.0" layoutY="331.0" mnemonicParsing="false" onAction="#NextPage" prefHeight="26.0" prefWidth="81.0" text="next &gt;&gt;" />
+      <Line endX="351.3999938964844" endY="3.8000030517578125" layoutX="137.0" layoutY="195.0" startX="-114.5999984741211" startY="3.8000030517578125" />
+      <Line endX="351.3999938964844" endY="3.8000030517578125" layoutX="137.0" layoutY="69.0" startX="-114.5999984741211" startY="3.8000030517578125" />
+      <Label fx:id="PageLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="158.0" layoutY="14.0" prefHeight="18.0" prefWidth="190.0" text="Page 1 of 2" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
